@@ -39,6 +39,12 @@ UserService obj ;
 		return obj.getAllUser();
 		
 	}
+	
+	@GetMapping("/GetAlluser")
+	public List<UserLogin> getAllUserlist1(){
+		return obj.getAllUser();
+		
+	}
 
 
 }
